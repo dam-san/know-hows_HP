@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*------------
+    CHECK
+-------------*/
+/* .header{
+    background-color: #d03c56;
+} */
+.main{
+    background-color: aqua;
+}
+
+/*------------
+    base
+-------------*/
+html{
+    font-size:62.5%;
+}
+
+body{
+    color:#333;
+    background-color: cadetblue;
+    font-size:1.4rem;
+    font-family: 'Jura',"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+    text-align: center;
+}
+
+*,*::before, *::after{
+    box-sizing:border-box;
+}
+a:link,a:visited,a:hover,a:active{
+    color: #d03c56;
+    text-decoration:none;
+}
+
+/*-----------
+    Parts
+------------*/
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.heading{
+    padding:10px 12px;
+    border-bottom:solid 2px #333;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+.hidden{
+    display: none;
+}
+/*-----------
+    Header
+------------*/
+.header{
+    padding:200px 30px 120px;
+    }
+.sub-title{
+    margin:0 0 30px;
+    letter-spacing:1px;
+    font-size:2.1rem
+}
+.main-title{
+    margin:50px o 40px;
+    font-size:7.6rem;
+
+}
+
+ .sub-title span{
+    color:firebrick;
+}
+
+.discription{
+    margin-bottom:50px;
+    font-style: oblique;
+    color:ivory;
+    font-size:1.6rem;
+}
