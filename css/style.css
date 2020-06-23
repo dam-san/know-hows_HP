@@ -62,12 +62,12 @@ a:link,a:visited,a:hover,a:active{
     font-size:2.1rem
 }
 .main-title{
-    margin:50px o 40px;
+    margin:50px 40px;
     font-size:7.6rem;
 
 }
 
- .sub-title span{
+.sub-title span{
     color:firebrick;
 }
 
@@ -77,3 +77,58 @@ a:link,a:visited,a:hover,a:active{
     color:ivory;
     font-size:1.6rem;
 }
+
+.about_div{
+    height: 700px;
+    background-color: white;
+}
+
+.about_head{
+    font-size: 30px;
+    padding-top: 50px;
+    border-bottom:solid #333 1px;
+    width: 180px;
+    margin:0 auto;
+    padding-bottom: 2px;
+}
+
+.about_p{
+    font-size:20px;
+    letter-spacing:0.1em;
+}
+
+.image_ma{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top:30px;
+}
+
+.about_blue{
+    height: 700px;
+    
+}
+
+.member_bold{
+    font-weight:500;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.div_flex{
+    display: flex;
+}
+
+.div_member_50{
+    padding-top: 20px;
+    width: 50%;
+}
+.about_blue_80{
+    width: 80%;
+    margin: 0 auto;
+}
+.div_member_33{
+    padding-top: 50px;
+    width: 33%;
+}
+
