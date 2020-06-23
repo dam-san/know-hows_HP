@@ -10,6 +10,12 @@
     background-color: aqua;
 }
 
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 /*------------
     base
 -------------*/
@@ -32,6 +38,7 @@ a:link,a:visited,a:hover,a:active{
     color: #d03c56;
     text-decoration:none;
 }
+
 
 /*-----------
     Parts
@@ -76,4 +83,108 @@ a:link,a:visited,a:hover,a:active{
     font-style: oblique;
     color:ivory;
     font-size:1.6rem;
+}
+
+/*-----------
+    Branch
+-----------*/
+
+.branch{
+    padding:80px 0px;
+    background-color: khaki;
+    color:#333;
+}
+
+.branch-heading{
+    display:inline-block;
+    border-bottom: 2px double ;
+    font-size: 1.6rem;
+    
+}
+
+.branch-wrapper{
+    display:table;
+    width:100%;
+    margin-top:60px;
+    table-layout: fixed;
+}
+
+.branch-box{
+    position: relative;
+    display: table-cell;
+}
+
+.branch-box::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left:0%;
+    width:100%;
+    height:50%;
+}
+
+.branch-img{
+    display:block;
+    width:100%;
+    margin:0 0 60%;
+
+    /*ここのブロック指定は重要？*/
+
+}
+
+.branch-descropiton{
+    position:absolute;
+    top:50%;
+    left:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    overflow-y:auto;
+}
+
+.branch-text{
+    display:table-cell;
+    vertical-align:middle;
+    font-size:1.2rem;
+    line-height:2;
+
+}
+
+.company{
+    padding:80px;
+    background-color:oldlace;
+    color:#333;
+}
+
+.company-heading h2{
+    font-size: 2.0rem;
+    text-decoration:underline double
+}
+
+.company-wrapper{
+    display:table;
+    width:80%;
+    margin:50px auto 0;
+    table-layout: fixed;
+}
+
+.company-box{
+    display: table-cell;
+}
+
+.company-img{
+    /* box-shadow: black 1px 1px 1px 2px;
+    border-radius: 5%;
+    width:230px;
+    height:300px; */
+   
+    width:90%;
+}
+
+.company-text{
+
+}
+.company-title{
+    font-size:1.6rem;
+    font-style: italic;
 }
