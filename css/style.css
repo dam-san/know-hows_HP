@@ -57,11 +57,17 @@ a:link,a:visited,a:hover,a:active{
 .hidden{
     display: none;
 }
+
+.Blank30px{
+    background-color: none;
+    height:30px;
+}
 /*-----------
     Header
 ------------*/
 .header{
     padding:200px 30px 120px;
+    min-height:100vh;
     }
 .sub-title{
     margin:0 0 30px;
@@ -94,6 +100,7 @@ a:link,a:visited,a:hover,a:active{
     padding:80px;
     background-color:oldlace;
     color:#333;
+    min-height: 100vh;
 }
 
 .company-heading h1{
@@ -132,8 +139,9 @@ a:link,a:visited,a:hover,a:active{
 }
 
 .about_div{
-    height: 700px;
+    min-height: 100vh;
     background-color: white;
+
 }
 
 .about_head{
@@ -163,6 +171,9 @@ a:link,a:visited,a:hover,a:active{
     height: 700px;
     
 }
+.member{
+    min-height: 100vh;
+}
 
 .member_bold{
     font-weight:500;
@@ -190,13 +201,14 @@ a:link,a:visited,a:hover,a:active{
 /* --------------
     dialog
 -------------- */
-.conv{
+.interview{
     height:auto;
     background-color: #fff;
     /* height:400px; */
+    min-height:100vh;
 }
 
-.cov-wrapper{
+.interview-wrapper{
     margin:0 auto;
     width:30%;
     background-color: cadetblue;
@@ -204,7 +216,7 @@ a:link,a:visited,a:hover,a:active{
 }
 
 .big-icon-wrapper{
-    background: linear-gradient(-135deg, #000, #fff);
+    background: linear-gradient(-135deg,#755, #fff);
     width:100%;
     /* height:auto; */
     margin-top:10px;
