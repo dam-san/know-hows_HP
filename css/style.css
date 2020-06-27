@@ -137,10 +137,12 @@ a:link,a:visited,a:hover,a:active{
 }
 
 .about_head{
+    display:inline-block;
+
     font-size: 30px;
     padding-top: 50px;
     border-bottom:solid #333 1px;
-    width: 180px;
+    /* width: 180px; */
     margin:0 auto;
     padding-bottom: 2px;
 }
@@ -188,106 +190,61 @@ a:link,a:visited,a:hover,a:active{
 /* --------------
     dialog
 -------------- */
-.dialog{
-    padding:50px 0;
+.conv{
+    height:auto;
+    background-color: #fff;
+    /* height:400px; */
 }
 
-.dialog-wrapper{
-    height: auto;
-    
-}
-.dialog-box{
-    display: table;
-    height: 60px;
-    padding:10px 0;
-    width:80%;
-    margin: 0 auto;
-}
-
-.dialog-70{
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform : translate(-50%,-50%);
-    text-align: center; */
-
-    display: table-cell;
-    width:70%;
-    height:80%;
-}
-.dialog-15r{
-    display: table-cell;
-    width:15%;
+.cov-wrapper{
+    margin:0 auto;
+    width:30%;
+    background-color: cadetblue;
    
 }
-.dialog-img{
 
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-  
-    
+.big-icon-wrapper{
+    background: linear-gradient(-135deg, #000, #fff);
+    width:100%;
+    /* height:auto; */
+    margin-top:10px;
 }
-.dialog-15l{
-    display: table-cell;
-    width:15%;
+.big-icon{
+    width:30vw;
+    border-radius: 5px;
+    display: block;
+    margin:0 auto;
 }
 
 
-/* 以下引用ソース */
-.balloon1-left {
-    position: relative;
+
+blockquote{
+
+    border-left:3px double #997bad;
+    padding-left:10px;
+    background:#e5e6f4;
     display: inline-block;
-    margin: 1.5em 0 1.5em 15px;
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    color: #555;
-    font-size: 16px;
-    background: #e0edff;
+    width:45%;
+    font-weight:bold;
   }
-  
-  .balloon1-left:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -30px;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-right: 15px solid #e0edff;
+ 
+  blockquote p{
+    font-style: italic;
+    padding: 3px 1px 0px;
+    line-height: 2.5rem;
   }
-  
-  .balloon1-left p {
-    margin: 0;
-    padding: 0;
+  blockquote span{
+    font-weight: normal;
+    color:gray;
   }
-  .balloon1-right {
-    position: relative;
-    display: inline-block;
-    margin: 1.5em 15px 1.5em 0;
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    color: #555;
-    font-size: 16px;
-    background: #e0edff;
+  blockquote cite{
+    display: block;
+    font-size:1.0rem;
+    color:#997bad;
+    text-align:right;
+    padding:3px 3px 3px;
   }
-  
-  .balloon1-right:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-left: 15px solid #e0edff;
-  }
-  
-  .balloon1-right p {
-    margin: 0;
-    padding: 0;
-  }
+
 
 /* ---------------
     lyrics
