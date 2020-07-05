@@ -286,3 +286,111 @@ blockquote{
     line-height: 3.2rem;
     padding-top:10px;
 }
+
+.work_div{
+    min-height: 100vh;
+    background: linear-gradient(-135deg,#dadada, white);
+
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 850px;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #fff;
+  padding: .35em;
+  border: 2px solid #eee;
+}
+table tr:last-child{
+  border: none;
+}
+table th{
+  padding: 2em;
+  border-right: 2px solid #fff;
+}
+table td {
+  padding: 2em .5em;
+  border-right: 2px solid #eee;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+}
+table thead tr{
+  background-color: #50535d;
+  color:#fff;
+}
+table tbody th {
+    border-right: 2px solid #eee;
+}
+th.non {
+    border-right: none;
+}
+.txt{
+   text-align: left;
+   font-size: .85em;
+}
+.price{
+  color: #000;
+  font-weight: bold;
+  font-size:1.3em
+}
+.price span {
+    font-size: .6em;
+}
+.btn{
+  background:white;
+  border: 2px solid #e81010;
+  color:#fff;
+  padding: 1em;
+  border-radius:20px;
+  display:block;
+  text-decoration:none;
+  font-size:.8em
+}
+.btn:hover{
+  background: rgb(231, 73, 73);
+  border: 2px solid #e81010;
+  color: #e81010;
+  transition: .2s;
+}
+table .btnarea td {
+  padding: .2em .5em;
+  border-right:none
+}
+
+.wrap {
+    padding-top:20px;
+}
+
+
+.btn_b{
+  background:black;
+  border: 2px solid #424242;
+  color:#fff;
+  padding: 1em;
+  border-radius:20px;
+  display:block;
+  text-decoration:none;
+  font-size:.8em
+}
+.btn_b:hover{
+  background: rgb(128, 118, 118);
+  border: 2px solid #424242;
+  color: #e81010;
+  transition: .2s;
+}
+
+.omaera{
+    padding: 50px 0px 20px 0px;
+}
+
+.omaera_p {
+    font-size:40px;
+}
